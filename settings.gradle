@@ -1,0 +1,8 @@
+rootProject.name = "Pixaloop"
+
+def opencvsdk='.'
+include ':opencv'
+project(':opencv').projectDir = new File( './/sdk')
+include ':app'
+
+
